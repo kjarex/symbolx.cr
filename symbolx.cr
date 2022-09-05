@@ -1,3 +1,4 @@
+raise "SymbolX requires 64bit pointers - sorry, you can't use SymbolX and have to remove the shard" unless sizeof(Pointer(Symbol))==8
 class SymbolX
   @@map= Array(String).new
   #actually, our own ones wouldn't need to have the same start, but if we use more than the last 32bits it would break Crystal's to_i so we can also jsut stay withinimplementation
