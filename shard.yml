@@ -1,0 +1,4 @@
+name: symbolx-cr
+version: 0.1
+author: Kjartan Rex <kjartan@duck.com>
+description: Create symbols at run-time like you would in ruby
